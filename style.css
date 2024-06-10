@@ -1,0 +1,394 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, .5);
+}
+
+/* Header Styles */
+header {
+    background: #086366;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Hero Section Styles */
+#home {
+    background: #000000c2;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+#home h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+#home p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+#home a {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #000000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Centered Image Section Styles */
+.center-image {
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+    align-items: center;
+    height: 50vh;
+    background-color: #000000;
+}
+
+.center-image img {
+    max-width: 100%;
+    margin-top: 44px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    box-sizing: border-box;
+    line-height: 1.6;
+    color: #000000;
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header .logo img {
+    max-height: 50px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.hero {
+    background: url('hero-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.hero h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Centered Image Section Styles */
+.center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #f4f4f4;
+}
+
+.center-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Featured Section Styles */
+.featured {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.featured h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.featured-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.featured-item {
+    flex: 1;
+    margin: 1rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featured-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.featured-item h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.featured-item p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.content {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.content h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.content p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.about-details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.about-details div {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.about-details h3 {
+    margin-bottom: 0.5rem;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.service-cards .card {
+    flex: 1;
+    margin: 0 1rem;
+    padding: 1rem;
+    background: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    header nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .content h2 {
+        font-size: 1.5rem;
+    }
+
+    .content p {
+        font-size: 0.9rem;
+    }
+
+    .about-details, .service-cards, .featured-items {
+        flex-direction: column;
+    }
+
+    .about-details div, .service-cards .card, .featured-item {
+        margin: 1rem 0;
+    }
+
+    .center-image {
+        height: auto;
+        padding: 2rem 0;
+    }
+
+    .featured-items {
+        flex-direction: column;
+    }
+
+    .featured-item {
+        margin: 1rem 0;
+    }
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+section p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    #home h1 {
+        font-size: 2rem;
+    }
+
+    #home p {
+        font-size: 1rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    section p {
+        font-size: 0.9rem;
+    }
+}
